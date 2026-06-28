@@ -27,6 +27,7 @@ public class ContaController {
     public ContaController(ContaService service,
                            ContaViewRepository queryRepository,
                            EventStoreRepository eventRepository) {
+        
         this.service = service;
         this.queryRepository = queryRepository;
         this.eventRepository = eventRepository;
